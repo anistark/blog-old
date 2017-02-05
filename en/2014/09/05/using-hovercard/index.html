@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Using Hovercard! | Solitary Pursuits</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel='stylesheet' href='http://fonts.useso.com/css?family=Source+Code+Pro'> -->
+  
+</head>
+
+<body>
+  <nav class="app-nav">
+  
+    
+      <a href="/.">home</a>
+    
+  
+    
+      <a href="/archives">archive</a>
+    
+  
+    
+      <a href="/atom.xml">rss</a>
+    
+  
+</nav>
+
+  <main class="post">
+  <article>
+  <h1 class="article-title">
+    <a href="/en/2014/09/05/using-hovercard/">Using Hovercard!</a>
+  </h1>
+
+  <section class="article-meta">
+    <p class="article-date">September 05 2014</p>
+  </section>
+
+  <section class="article-entry">
+    <p>Many of you would have looked into that fancy hovering box that appears in facebook or twitter and wondered how to use in that your site. :) Well, today I'm going to explain using a demo using hovercard. :D</p>
+<p>First you will need the <a href="https://raw.githubusercontent.com/anistark/demo/master/hovercard/jquery.hovercard.min.js" target="_blank" rel="external">js</a> file of course.</p>
+<p>Then HTML part:</p>
+<p><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"codeblock"</span>&gt;</span>Hover over my name.<span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">This demo was prepared by <span class="tag">&lt;<span class="name">label</span> <span class="attr">id</span>=<span class="string">"profile"</span>&gt;</span>Kumar Anirudha<span class="tag">&lt;/<span class="name">label</span>&gt;</span>.<span class="tag">&lt;<span class="name">br</span> /&gt;</span></div><div class="line">For Demo purposes. Blah blah. Fill up anything you like.<span class="tag">&lt;<span class="name">br</span> /&gt;</span><span class="tag">&lt;<span class="name">br</span> /&gt;</span>Open Source Enthusiast. </div></pre></td></tr></table></figure></p>
+<p>Of course you are free to change the content. :)</p>
+<p>The CSS file:</p>
+<p><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">body</span></div><div class="line">&#123;</div><div class="line">    <span class="attribute">font-family</span>:Sans-serif;</div><div class="line">    <span class="attribute">font-size</span>:<span class="number">13px</span>;</div><div class="line">    <span class="attribute">padding</span>:<span class="number">20px</span>;    </div><div class="line">&#125;</div><div class="line"><span class="selector-class">.hc-name</span>, <span class="selector-tag">a</span>&#123; <span class="attribute">color</span>: <span class="number">#1de2d1</span>&#125;</div><div class="line"><span class="selector-class">.codeblock</span>&#123;<span class="attribute">padding</span>:<span class="number">5px</span>; <span class="attribute">background</span>:<span class="number">#aaddaa</span>;<span class="attribute">margin-bottom</span>:<span class="number">10px</span>;<span class="attribute">font-weight</span>:bold;&#125;</div></pre></td></tr></table></figure></p>
+<p>You can change the color and everything. But better don't change the attributes. Or make to change the attributes in the js file too.</p>
+<p>The JS part:</p>
+<p><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> aboutMe = &#123;</div><div class="line">    <span class="attr">name</span>: <span class="string">"Kumar Anirudha"</span>,</div><div class="line">    <span class="attr">link</span>: <span class="string">"http://anistark.github.io/blog/"</span>,</div><div class="line">    <span class="attr">bio</span>: <span class="string">"Kumar Anirudha is a freelance Web-developer and blogger. This is only for demo purpose only. You are free to Fork it and use and your own risk."</span>,</div><div class="line">    <span class="attr">image</span>: <span class="string">"http://www.gravatar.com/avatar/956e7358fe55faf73f6a8864745334e2.png"</span>,</div><div class="line">    <span class="attr">website</span>: <span class="string">"http://anistark.github.io/"</span>,</div><div class="line">    <span class="attr">email</span>: <span class="string">"anirudhastark@yahoo.com"</span></div><div class="line">&#125;;</div><div class="line"></div><div class="line">$(<span class="string">'#profile'</span>).hovercard(&#123;</div><div class="line">    <span class="attr">showCustomCard</span>: <span class="literal">true</span>, </div><div class="line">    <span class="attr">customCardJSON</span>: aboutMe</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<p>This contains the box content. So, Put in here whatever you wish to put in and it'll be showed on hover.</p>
+<p>A small <a href="http://anistark.github.io/demo/hovercard/" target="_blank" rel="external">demo</a> has been shown.
+You can also use it with Facebook API and twitter API.</p>
+<p>Here is the full code:</p>
+<p><script src="//gist.github.com/anistark/288da63467817f8dbbe4.js"></script></p>
+<p>You will however need to add jquery file since it is a jquery based application. :) In case of any problem, please comment below.</p>
+
+  </section>
+</article>
+
+  <div class="sharing grid">
+  <section class="profile grid-item grid">
+    <img class="avatar" src="http://i.imgur.com/OXCWwy7.jpg" alt="avatar" />
+    <div class="grid-item">
+      <p class="title"> Solitary Pursuits </p>
+      <p class="subtitle"> Solitary Pursuits in the New World </p>
+    <div>
+  </section>
+
+  <section class="share-btns">
+    <!-- <p> share it if you like it~ </p> -->
+    <a
+  class="twitter-share-button"
+  data-size="large"
+  data-via="kranirudha"
+  href="https://twitter.com/intent/tweet?text=Many of you would ha"
+>
+  Tweet
+</a>
+
+<script>
+  window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  js.async = true;
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+</script>
+
+  </section>
+</div>
+
+
+  
+    
+<section class="article-comment">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+<script>
+  var disqus_shortname = 'anistark';
+  
+  var disqus_url = 'http://blog.anirudha.org/en/2014/09/05/using-hovercard/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  
+</main>
+
+</body>
+</html>
