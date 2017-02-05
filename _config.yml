@@ -70,3 +70,12 @@ deploy:
 	type: git
 	repo: git@github.com:anistark/blog.git
 	branch: gh-pages
+
+# Atom Feed
+## Reference: https://github.com/hexojs/hexo-generator-feed
+feed:
+	type: atom
+	path: atom.xml
+	limit: 20
+	hub:
+	content:
