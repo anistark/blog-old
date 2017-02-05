@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Solitary Pursuits</title>
+  <subtitle>Solitary Pursuits in the New World</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.anirudha.org/"/>
+  <updated>2017-02-05T12:26:20.000Z</updated>
+  <id>http://blog.anirudha.org/</id>
+  
+  <author>
+    <name>Kumar Anirudha</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Introduction to Material Design</title>
+    <link href="http://blog.anirudha.org/en/2015/07/12/introduction-to-material-design/"/>
+    <id>http://blog.anirudha.org/en/2015/07/12/introduction-to-material-design/</id>
+    <published>2015-07-11T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;p&gt;Material Design was first intr
+    
+    </summary>
+    
+      <category term="design" scheme="http://blog.anirudha.org/categories/design/"/>
+    
+    
+      <category term="material" scheme="http://blog.anirudha.org/tags/material/"/>
+    
+      <category term="design" scheme="http://blog.anirudha.org/tags/design/"/>
+    
+      <category term="theme" scheme="http://blog.anirudha.org/tags/theme/"/>
+    
+      <category term="lite" scheme="http://blog.anirudha.org/tags/lite/"/>
+    
+      <category term="angular" scheme="http://blog.anirudha.org/tags/angular/"/>
+    
+      <category term="react" scheme="http://blog.anirudha.org/tags/react/"/>
+    
+      <category term="paper" scheme="http://blog.anirudha.org/tags/paper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Braintree Integration on Laravel</title>
+    <link href="http://blog.anirudha.org/en/2014/12/22/braintree-laravel-integration/"/>
+    <id>http://blog.anirudha.org/en/2014/12/22/braintree-laravel-integration/</id>
+    <published>2014-12-21T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;A-payment-gateway-now-made-even-simpler-to-use&quot;&gt;&lt;a href=&quot;#A-payment-gateway-now-made-even-simpler-to-use&quot; class=&quot;headerlink&quot; title=&quot;
+    
+    </summary>
+    
+      <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+    
+      <category term="braintree" scheme="http://blog.anirudha.org/tags/braintree/"/>
+    
+      <category term="laravel" scheme="http://blog.anirudha.org/tags/laravel/"/>
+    
+      <category term="php" scheme="http://blog.anirudha.org/tags/php/"/>
+    
+      <category term="payment" scheme="http://blog.anirudha.org/tags/payment/"/>
+    
+      <category term="gateway" scheme="http://blog.anirudha.org/tags/gateway/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>The Papertrail App</title>
+    <link href="http://blog.anirudha.org/en/2014/12/17/papertrail-log-management/"/>
+    <id>http://blog.anirudha.org/en/2014/12/17/papertrail-log-management/</id>
+    <published>2014-12-16T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Managing-Logs-has-never-been-so-easy&quot;&gt;&lt;a href=&quot;#Managing-Logs-has-never-been-so-easy&quot; class=&quot;headerlink&quot; title=&quot;Managing Logs has ne
+    
+    </summary>
+    
+      <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Using Hovercard!</title>
+    <link href="http://blog.anirudha.org/en/2014/09/05/using-hovercard/"/>
+    <id>http://blog.anirudha.org/en/2014/09/05/using-hovercard/</id>
+    <published>2014-09-04T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Many of you would have looked into that fancy hovering box that appears in facebook or twitter and wondered how to use in that your site.
+    
+    </summary>
+    
+      <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+    
+      <category term="hovercard" scheme="http://blog.anirudha.org/tags/hovercard/"/>
+    
+      <category term="js" scheme="http://blog.anirudha.org/tags/js/"/>
+    
+      <category term="hover" scheme="http://blog.anirudha.org/tags/hover/"/>
+    
+      <category term="demo" scheme="http://blog.anirudha.org/tags/demo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Intro to Python!</title>
+    <link href="http://blog.anirudha.org/en/2014/08/29/intro-to-python/"/>
+    <id>http://blog.anirudha.org/en/2014/08/29/intro-to-python/</id>
+    <published>2014-08-28T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;img src=&quot;http://i.imgur.com/lcwFbRx.png&quot; title=&quot;[5rem] [auto] [Intro to Python [Intro to Python]]&quot;&gt;
+&lt;p&gt;Python is a widely used general-purp
+    
+    </summary>
+    
+      <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+    
+      <category term="python" scheme="http://blog.anirudha.org/tags/python/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
+    
+      <category term="zen" scheme="http://blog.anirudha.org/tags/zen/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ghost Editor</title>
+    <link href="http://blog.anirudha.org/en/2014/08/05/ghost-editor/"/>
+    <id>http://blog.anirudha.org/en/2014/08/05/ghost-editor/</id>
+    <published>2014-08-04T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Recently, a common question was too much noticeable in a few forums across open source world. “Which Editor is best for my Ubunut / Fedor
+    
+    </summary>
+    
+      <category term="project" scheme="http://blog.anirudha.org/categories/project/"/>
+    
+    
+      <category term="ghost" scheme="http://blog.anirudha.org/tags/ghost/"/>
+    
+      <category term="editor" scheme="http://blog.anirudha.org/tags/editor/"/>
+    
+      <category term="online" scheme="http://blog.anirudha.org/tags/online/"/>
+    
+      <category term="node.js" scheme="http://blog.anirudha.org/tags/node-js/"/>
+    
+      <category term="mongodb" scheme="http://blog.anirudha.org/tags/mongodb/"/>
+    
+      <category term="ace editor" scheme="http://blog.anirudha.org/tags/ace-editor/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://blog.anirudha.org/en/2014/07/23/hello-world/"/>
+    <id>http://blog.anirudha.org/en/2014/07/23/hello-world/</id>
+    <published>2014-07-22T18:30:00.000Z</published>
+    <updated>2017-02-05T12:26:20.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to Solitary Pursuits.&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="hello_world" scheme="http://blog.anirudha.org/tags/hello-world/"/>
+    
+      <category term="first_post" scheme="http://blog.anirudha.org/tags/first-post/"/>
+    
+  </entry>
+  
+</feed>
