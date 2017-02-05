@@ -5,7 +5,7 @@ date:   2014-08-29
 categories:
  - coding
 ---
-{% img /images/python.png [5rem] [auto] [Intro to Python [Intro to Python]] %}
+{% img http://i.imgur.com/lcwFbRx.png [5rem] [auto] [Intro to Python [Intro to Python]] %}
 Python is a widely used general-purpose, high-level programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C. The language provides constructs intended to enable clear programs on both a small and large scale. Python supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles. It features a dynamic type system and automatic memory management and has a large and comprehensive standard library.
 
 Lets start by viewing a small program in python console for swapping two numbers:
