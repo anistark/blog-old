@@ -4,6 +4,14 @@ subtitle: "Paper for the web"
 date:   2015-07-12
 categories:
  - design
+tags:
+ - material
+ - design
+ - theme
+ - lite
+ - angular
+ - react
+ - paper
 ---
 ### Introduction
 

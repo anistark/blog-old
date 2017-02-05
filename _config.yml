@@ -68,5 +68,5 @@ theme: again
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 	type: git
-	# repo: <repository url>
-	# branch: [branch]
+	repo: git@github.com:anistark/blog.git
+	branch: gh-pages
