@@ -3,3 +3,4 @@ _site
 public
 .deploy_git
 node_modules
+.idea
