@@ -2,15 +2,9 @@
 title:  "Ghost Editor"
 subtitle: "Geek pep talk"
 date:   2014-08-05
-categories:
- - project
-tags:
- - ghost
- - editor
- - online
- - node.js
- - mongodb
- - ace editor
+categories: ["project"]
+tags: ["ghost", "editor", "online", "node.js", "mongodb", "ace editor"]
+
 ---
 Recently, a common question was too much noticeable in a few forums across open source world. "Which Editor is best for my Ubunut / Fedora / Mac Os X/ Windows 8 etc" and so arose the question. Why is it that people find the traditional editors vim(unix/linux/mac), notepad(windows) uncomfy to work with? Maybe cause for a newbie it's too complicated. Then comes gnu/emacs and life ain't any simpler. Well I personally have used Sublime Text and I loved it. A friend suggested to me a year ago, and I'm never getting off it again. But then, what about other users. Why is it that we need to download every time we format our system or buy a new pc. In todays internet era when eveything is on cloud. So how about creating an editor which will be online all the while and you can code multiple languages in it. And hence was born the idea for Ghost Editor.
 

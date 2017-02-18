@@ -10,16 +10,10 @@
 hexo server
 ```
 
-#### Build
-
-```
-hexo build
-```
-
 #### Deploy
 
 ```
-hexo deploy
+hexo clean && hexo deploy
 ```
 
 

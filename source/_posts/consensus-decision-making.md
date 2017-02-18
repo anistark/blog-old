@@ -4,21 +4,11 @@ subtitle: "Decision Making at its best"
 date: 2017-02-18 21:23:16
 categories:
  - organisation
-tags:
- - decision making
- - decision
- - consensus
- - organisation
- - group
- - democracy
- - individual
- - decision making model
- - startup
+tags: ["decision making", "decision", "consensus", "organisation", "group", "democracy", "individual", "decision making model", "startup"]
+icon: fa-file-text-o
 
 ---
-# Consensus Decision Making
-
-### Decision Making
+### Introduction to Decision Making
 
 In psychology, decision-making is regarded as the cognitive process resulting in the selection of a belief or a course of action among several alternative possibilities.
 Human performance with regard to decisions has been the subject of active research from several perspectives:
@@ -61,15 +51,10 @@ By now, you must have had a pretty decent understanding on the clarity that cons
 Let’s go over a model from the emergence of a startup:
 
  1. Introduce and clarify the issue to be decided.
-
  2. Explore the issue with your group and look for ideas amongst peers or partners or close friends.
- 
  3. Look for emerging proposal. Sometimes this phase also results in a completely different idea than what was to be decided at all, which is turn deviates a startup from one business model to the next also known as pivot of idea.
-
  4. Discuss, clarify and amend your proposal.
-
  5. Test for agreements. Check for blocks, reservations, resolve them if needed and then it’s all good to proceed.
- 
  6. Finally, implement the decision.
 
 

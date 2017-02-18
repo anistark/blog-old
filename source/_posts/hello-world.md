@@ -1,8 +1,9 @@
 ---
 title: Hello World
 date: 2014-07-23
-tags:
- - hello_world
- - first_post
+tags: ["first_post", "hello_world", "Welcome", "AniStark"]
+categories: ["Hello World"]
+icon: fa-handshake-o
+
 ---
 Welcome to Solitary Pursuits.

@@ -1,0 +1,59 @@
+# Logo
+logo_image_source: http://i.imgur.com/LpkkK5m.png
+
+# Index Page
+index_banner_text: Solitary Pursuits
+index_banner_text_secondary: Rantings of a solitary pursuit in the Tech world
+index_font_awesome_icon_css: fa fa-fort-awesome
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+#  About: /about.html
+#  Contact: /contact.html
+
+# Post
+default_post_title: Untitled
+default_post_icon: fa-code
+
+# Archive Date Format
+archive_date_format: YYYY MMM
+archive_font_awesome_icon_css: fa-folder-open
+
+# About Widget
+about_widget_avatar_url: http://i.imgur.com/OXCWwy7.jpg
+about_widget_text: "My name is Kumar Anirudha and this is my blog.<br>I am a full stack software engineer with a strong back-end focus.<br> I currently live and work in Bangalore, hit me up if you are in the region."
+
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: anistark
+
+# Google Analytics Tracking ID
+google_analytics: UA-66400830-1
+
+# Social Media Platforms
+social_platforms:
+  - url: https://twitter.com/kranirudha
+    fa_icon: fa-twitter
+  - url: https://www.facebook.com/kranirudha
+    fa_icon: fa-facebook
+#  - url: https://dribbble.com/
+#    fa_icon: fa-dribbble
+  - url: https://github.com/anistark
+    fa_icon: fa-github
+#  - url: https://plus.google.com/
+#    fa_icon: fa-google-plus
+#  - url: https://www.behance.net/
+#    fa_icon: fa-behance
+#  - url: https://500px.com/
+#    fa_icon: fa-500px
+  - url: mailto:mail@anirudha.org
+    fa_icon: fa-envelope
+  - url: /atom.xml
+    fa_icon: fa-rss
+
+# Footer about
+footer_about: "<a class=\"link dim white\" href=\"http://www.anirudha.org/\">Kumar Anirudha</a>"
