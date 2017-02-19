@@ -24,8 +24,7 @@
     
     <summary type="html">
     
-      &lt;h3&gt;Introduction to Decision Making&lt;/h3&gt;
-&lt;p&gt;In psychology, decision-making is regarded as the cognitive process resulting in the selection o
+      &lt;h3 id=&quot;Introduction-to-Decision-Making&quot;&gt;&lt;a href=&quot;#Introduction-to-Decision-Making&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Decision Makin
     
     </summary>
     
@@ -57,16 +56,17 @@
     <link href="http://blog.anirudha.org/en/2015/07/12/introduction-to-material-design/"/>
     <id>http://blog.anirudha.org/en/2015/07/12/introduction-to-material-design/</id>
     <published>2015-07-11T18:30:00.000Z</published>
-    <updated>2017-02-05T12:26:20.000Z</updated>
+    <updated>2017-02-19T07:26:25.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;Material Design was first introduced in &lt;a href=&quot;https://www.google.com/events/io/io14videos/79edef8b-96d4-e311-b29
+      &lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;p&gt;Material Design was first intr
     
     </summary>
     
       <category term="design" scheme="http://blog.anirudha.org/categories/design/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/categories/design/intro/"/>
     
     
       <category term="material" scheme="http://blog.anirudha.org/tags/material/"/>
@@ -90,16 +90,21 @@
     <link href="http://blog.anirudha.org/en/2014/12/22/braintree-laravel-integration/"/>
     <id>http://blog.anirudha.org/en/2014/12/22/braintree-laravel-integration/</id>
     <published>2014-12-21T18:30:00.000Z</published>
-    <updated>2017-02-05T12:26:20.000Z</updated>
+    <updated>2017-02-19T07:25:07.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3&gt;A payment gateway now made even simpler to use&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.braintreepayments.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Brain
+      &lt;h3 id=&quot;A-payment-gateway-now-made-even-simpler-to-use&quot;&gt;&lt;a href=&quot;#A-payment-gateway-now-made-even-simpler-to-use&quot; class=&quot;headerlink&quot; title=&quot;
     
     </summary>
     
       <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+      <category term="php" scheme="http://blog.anirudha.org/categories/coding/php/"/>
+    
+      <category term="laravel" scheme="http://blog.anirudha.org/categories/coding/php/laravel/"/>
+    
+      <category term="payment gateway" scheme="http://blog.anirudha.org/categories/coding/php/laravel/payment-gateway/"/>
     
     
       <category term="braintree" scheme="http://blog.anirudha.org/tags/braintree/"/>
@@ -119,17 +124,32 @@
     <link href="http://blog.anirudha.org/en/2014/12/17/papertrail-log-management/"/>
     <id>http://blog.anirudha.org/en/2014/12/17/papertrail-log-management/</id>
     <published>2014-12-16T18:30:00.000Z</published>
-    <updated>2017-02-05T12:26:20.000Z</updated>
+    <updated>2017-02-19T07:29:59.000Z</updated>
     
     <summary type="html">
     
-      &lt;h3&gt;Managing Logs has never been so easy&lt;/h3&gt;
-&lt;p&gt;PaperTrail lets you track changes to your models&#39; data. It&#39;s good for auditing or versionin
+      &lt;h3 id=&quot;Managing-Logs-has-never-been-so-easy&quot;&gt;&lt;a href=&quot;#Managing-Logs-has-never-been-so-easy&quot; class=&quot;headerlink&quot; title=&quot;Managing Logs has ne
     
     </summary>
     
       <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
     
+      <category term="logging" scheme="http://blog.anirudha.org/categories/coding/logging/"/>
+    
+      <category term="laravel" scheme="http://blog.anirudha.org/categories/coding/logging/laravel/"/>
+    
+    
+      <category term="laravel" scheme="http://blog.anirudha.org/tags/laravel/"/>
+    
+      <category term="php" scheme="http://blog.anirudha.org/tags/php/"/>
+    
+      <category term="papertrail" scheme="http://blog.anirudha.org/tags/papertrail/"/>
+    
+      <category term="logging" scheme="http://blog.anirudha.org/tags/logging/"/>
+    
+      <category term="coding" scheme="http://blog.anirudha.org/tags/coding/"/>
+    
+      <category term="ubuntu" scheme="http://blog.anirudha.org/tags/ubuntu/"/>
     
   </entry>
   
@@ -138,7 +158,7 @@
     <link href="http://blog.anirudha.org/en/2014/09/05/using-hovercard/"/>
     <id>http://blog.anirudha.org/en/2014/09/05/using-hovercard/</id>
     <published>2014-09-04T18:30:00.000Z</published>
-    <updated>2017-02-05T12:26:20.000Z</updated>
+    <updated>2017-02-19T07:30:39.000Z</updated>
     
     <summary type="html">
     
@@ -147,6 +167,8 @@
     </summary>
     
       <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+      <category term="demo" scheme="http://blog.anirudha.org/categories/coding/demo/"/>
     
     
       <category term="hovercard" scheme="http://blog.anirudha.org/tags/hovercard/"/>
@@ -164,16 +186,20 @@
     <link href="http://blog.anirudha.org/en/2014/08/29/intro-to-python/"/>
     <id>http://blog.anirudha.org/en/2014/08/29/intro-to-python/</id>
     <published>2014-08-28T18:30:00.000Z</published>
-    <updated>2017-02-18T22:10:00.000Z</updated>
+    <updated>2017-02-19T07:25:57.000Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/lcwFbRx.png&quot; title=&quot;[5rem] [auto] [Intro to Python [Intro to Python]]&quot;&gt;
-Python is a widely used general-purp
+      &lt;img src=&quot;http://i.imgur.com/lcwFbRx.png&quot; title=&quot;[5rem] [auto] [Intro to Python [Intro to Python]]&quot;&gt;
+&lt;p&gt;Python is a widely used general-purp
     
     </summary>
     
       <category term="coding" scheme="http://blog.anirudha.org/categories/coding/"/>
+    
+      <category term="python" scheme="http://blog.anirudha.org/categories/coding/python/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/categories/coding/python/intro/"/>
     
     
       <category term="python" scheme="http://blog.anirudha.org/tags/python/"/>
@@ -193,7 +219,7 @@ Python is a widely used general-purp
     
     <summary type="html">
     
-      &lt;p&gt;Recently, a common question was too much noticeable in a few forums across open source world. &amp;quot;Which Editor is best for my Ubunut / 
+      &lt;p&gt;Recently, a common question was too much noticeable in a few forums across open source world. “Which Editor is best for my Ubunut / Fedor
     
     </summary>
     
