@@ -2,13 +2,10 @@
 title:  "Using Hovercard!"
 subtitle: "A small demo on hovercard"
 date:   2014-09-05
-categories:
- - coding
-tags:
- - hovercard
- - js
- - hover
- - demo
+categories: ["coding", "demo"]
+tags: ["hovercard", "js", "hover", "demo"]
+icon: fa-rocket
+
 ---
 Many of you would have looked into that fancy hovering box that appears in facebook or twitter and wondered how to use in that your site. :) Well, today I'm going to explain using a demo using hovercard. :D
 

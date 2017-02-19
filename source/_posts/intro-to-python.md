@@ -2,8 +2,9 @@
 title:  "Intro to Python!"
 subtitle: "The Zen of Python"
 date:   2014-08-29
-categories: ["coding"]
+categories: ["coding", "python", "intro"]
 tags: ["python", "intro", "zen"]
+icon: fa-file-code-o
 
 ---
 {% img http://i.imgur.com/lcwFbRx.png [5rem] [auto] [Intro to Python [Intro to Python]] %}

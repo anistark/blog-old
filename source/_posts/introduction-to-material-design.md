@@ -2,16 +2,10 @@
 title:  "Introduction to Material Design"
 subtitle: "Paper for the web"
 date:   2015-07-12
-categories:
- - design
-tags:
- - material
- - design
- - theme
- - lite
- - angular
- - react
- - paper
+categories: ["design", "intro"]
+tags: ["material", "design", "theme", "lite", "angular", "react", "paper"]
+icon: fa-file-code-o
+
 ---
 ### Introduction
 

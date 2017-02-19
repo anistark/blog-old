@@ -197,5 +197,20 @@ MIT
 Enjoy :)
 
 
+#### google analytics
 
 <%- partial('google-analytics') %>
+
+
+#### tags in home page
+
+<% if (item.tags && item.tags.length) {
+    var tags = [];
+    item.tags.forEach(function(tag) {
+        <!-- Need to use JS to handle link click to avoid display issues. Best to put here than outer div for SEO. -->
+        tags.push('<span class="fake-link fw3 ph1 dib" onclick="location.href = \'' + config.root + tag.path + '\'; return false;">#' + tag.name + '</span>');
+    });
+%>
+<%- tags.join(' ') %>
+<% } %>
+

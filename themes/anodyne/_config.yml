@@ -18,8 +18,8 @@ default_post_title: Untitled
 default_post_icon: fa-code
 
 # Archive Date Format
-archive_date_format: YYYY MMM
-archive_font_awesome_icon_css: fa-folder-open
+archive_date_format: YYYY MMMM
+archive_font_awesome_icon_css: fa-archive
 
 # About Widget
 about_widget_avatar_url: http://i.imgur.com/OXCWwy7.jpg
@@ -57,3 +57,8 @@ social_platforms:
 
 # Footer about
 footer_about: "<a class=\"link dim white\" href=\"http://www.anirudha.org/\">Kumar Anirudha</a>"
+
+# Home Page Date Format
+home_date_format: MMMM Do YYYY
+
+
