@@ -4,6 +4,7 @@ subtitle: "Managing Logs has never been so easy"
 date:   2014-12-17
 categories: ["coding", "logging", "laravel"]
 tags: ["papertrail", "logging", "coding", "ubuntu", "php", "laravel"]
+icon: devicons devicons-php
 
 ---
 ### Managing Logs has never been so easy

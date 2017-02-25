@@ -4,6 +4,7 @@ subtitle: "A payment gateway now made even simpler to use"
 date:   2014-12-22
 categories: ["coding", "php", "laravel", "payment gateway"]
 tags: ["braintree", "laravel", "php", "payment", "gateway"]
+icon: devicons devicons-laravel
 
 ---
 ### A payment gateway now made even simpler to use

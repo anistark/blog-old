@@ -5,7 +5,7 @@ date: 2017-02-18 21:23:16
 categories:
  - organisation
 tags: ["decision making", "decision", "consensus", "organisation", "group", "democracy", "individual", "decision making model", "startup"]
-icon: fa-file-text-o
+icon: fa fa-file-text-o
 
 ---
 ### Introduction to Decision Making

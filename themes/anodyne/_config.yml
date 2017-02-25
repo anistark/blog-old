@@ -15,11 +15,11 @@ menu:
 
 # Post
 default_post_title: Untitled
-default_post_icon: fa-code
+default_post_icon: fa fa-code
 
 # Archive Date Format
 archive_date_format: YYYY MMMM
-archive_font_awesome_icon_css: fa-archive
+archive_font_awesome_icon_css: fa fa-archive
 
 # About Widget
 about_widget_avatar_url: http://i.imgur.com/OXCWwy7.jpg
@@ -37,23 +37,23 @@ google_analytics: UA-66400830-1
 # Social Media Platforms
 social_platforms:
   - url: https://twitter.com/kranirudha
-    fa_icon: fa-twitter
+    fa_icon: fa fa-twitter
   - url: https://www.facebook.com/kranirudha
-    fa_icon: fa-facebook
+    fa_icon: fa fa-facebook
 #  - url: https://dribbble.com/
 #    fa_icon: fa-dribbble
   - url: https://github.com/anistark
-    fa_icon: fa-github
+    fa_icon: fa fa-github
 #  - url: https://plus.google.com/
-#    fa_icon: fa-google-plus
+#    fa_icon: fa fa-google-plus
 #  - url: https://www.behance.net/
-#    fa_icon: fa-behance
+#    fa_icon: fa fa-behance
 #  - url: https://500px.com/
-#    fa_icon: fa-500px
+#    fa_icon: fa fa-500px
   - url: mailto:mail@anirudha.org
-    fa_icon: fa-envelope
+    fa_icon: fa fa-envelope
   - url: /atom.xml
-    fa_icon: fa-rss
+    fa_icon: fa fa-rss
 
 # Footer about
 footer_about: "<a class=\"link dim white\" href=\"http://www.anirudha.org/\">Kumar Anirudha</a>"

@@ -4,7 +4,7 @@ subtitle: "Paper for the web"
 date:   2015-07-12
 categories: ["design", "intro"]
 tags: ["material", "design", "theme", "lite", "angular", "react", "paper"]
-icon: fa-file-code-o
+icon: fa fa-file-code-o
 
 ---
 ### Introduction
