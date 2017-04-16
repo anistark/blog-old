@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.anirudha.org/"/>
-  <updated>2017-02-25T22:21:48.000Z</updated>
+  <updated>2017-04-16T08:47:19.000Z</updated>
   <id>http://blog.anirudha.org/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Intro To Blockchain</title>
+    <link href="http://blog.anirudha.org/en/2017/04/16/intro-to-blockchain/"/>
+    <id>http://blog.anirudha.org/en/2017/04/16/intro-to-blockchain/</id>
+    <published>2017-04-15T18:30:00.000Z</published>
+    <updated>2017-04-16T08:47:19.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;The first time I heard of blockchain was by being the distributed ledger that bitcoin uses. And I’m sure so have many of you, maybe still
+    
+    </summary>
+    
+      <category term="blockchain" scheme="http://blog.anirudha.org/categories/blockchain/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/categories/blockchain/intro/"/>
+    
+    
+      <category term="blockchain" scheme="http://blog.anirudha.org/tags/blockchain/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
+    
+      <category term="bitcoin" scheme="http://blog.anirudha.org/tags/bitcoin/"/>
+    
+  </entry>
   
   <entry>
     <title>Consensus Decision Making</title>
@@ -202,9 +228,9 @@
       <category term="intro" scheme="http://blog.anirudha.org/categories/coding/python/intro/"/>
     
     
-      <category term="python" scheme="http://blog.anirudha.org/tags/python/"/>
-    
       <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
+    
+      <category term="python" scheme="http://blog.anirudha.org/tags/python/"/>
     
       <category term="zen" scheme="http://blog.anirudha.org/tags/zen/"/>
     
