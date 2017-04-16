@@ -1,5 +1,9 @@
 ---
 title: {{ title }}
+subtitle: {{ title }}
 date: {{ date }}
-tags:
+categories: ["intro", "hello"]
+tags: ["intro", "hello"]
+icon: devicons devicons-opensource
+
 ---
