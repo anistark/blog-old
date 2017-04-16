@@ -33,9 +33,9 @@
       <category term="intro" scheme="http://blog.anirudha.org/categories/blockchain/intro/"/>
     
     
-      <category term="blockchain" scheme="http://blog.anirudha.org/tags/blockchain/"/>
-    
       <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
+    
+      <category term="blockchain" scheme="http://blog.anirudha.org/tags/blockchain/"/>
     
       <category term="bitcoin" scheme="http://blog.anirudha.org/tags/bitcoin/"/>
     
@@ -228,9 +228,9 @@
       <category term="intro" scheme="http://blog.anirudha.org/categories/coding/python/intro/"/>
     
     
-      <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
-    
       <category term="python" scheme="http://blog.anirudha.org/tags/python/"/>
+    
+      <category term="intro" scheme="http://blog.anirudha.org/tags/intro/"/>
     
       <category term="zen" scheme="http://blog.anirudha.org/tags/zen/"/>
     
