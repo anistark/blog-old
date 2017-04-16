@@ -3,6 +3,11 @@
 
 ### Hexo 
 
+#### Setup
+
+```
+npm install
+```
 
 #### Serve locally
 
