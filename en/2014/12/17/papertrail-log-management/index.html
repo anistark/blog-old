@@ -128,50 +128,65 @@
                     
 
                     <!-- Main Post Content -->
-                    <h3 id="Managing-Logs-has-never-been-so-easy"><a href="#Managing-Logs-has-never-been-so-easy" class="headerlink" title="Managing Logs has never been so easy"></a>Managing Logs has never been so easy</h3><p>PaperTrail lets you track changes to your models’ data. It’s good for auditing or versioning. You can see how a model looked at any stage in its lifecycle, revert it to any version, and even undelete it after it’s been destroyed.</p>
-<h4 id="Steps-to-Activate-Papertrail-For-your-project"><a href="#Steps-to-Activate-Papertrail-For-your-project" class="headerlink" title="Steps to Activate Papertrail For your project"></a>Steps to Activate Papertrail For your project</h4><ul>
-<li><p>Signup an  account credentials with <a href="https://papertrailapp.com/" target="_blank" rel="external">papertrail website</a>.</p>
+                    <h3>Managing Logs has never been so easy</h3>
+<p>PaperTrail lets you track changes to your models' data. It's good for auditing or versioning. You can see how a model looked at any stage in its lifecycle, revert it to any version, and even undelete it after it's been destroyed.</p>
+<h4>Steps to Activate Papertrail For your project</h4>
+<ul>
+<li>
+<p>Signup an  account credentials with <a href="https://papertrailapp.com/" target="_blank" rel="external">papertrail website</a>.</p>
 </li>
-<li><p>Next you will be directed to you profile page where you will find an option stating you to Add your First System.<br>Enable it and you will be redirect you to next page.</p>
+<li>
+<p>Next you will be directed to you profile page where you will find an option stating you to Add your First System.
+Enable it and you will be redirect you to next page.</p>
 </li>
-<li><p>Once you are redirected to this page papertrail will give you an individual port to view you Logs which will be similar to this.</p>
-<p>Your systems will log to </p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure>
+<li>
+<p>Once you are redirected to this page papertrail will give you an individual port to view you Logs which will be similar to this.</p>
+<p>Your systems will log to
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure></p>
 </li>
-<li><p>By default check the Logger your system has by executing this syntax</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls <span class="_">-d</span> /etc/*syslog*</div></pre></td></tr></table></figure>
+<li>
+<p>By default check the Logger your system has by executing this syntax
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls <span class="_">-d</span> /etc/*syslog*</div></pre></td></tr></table></figure></p>
 </li>
-<li><p>In terminal run:</p>
+<li>
+<p>In terminal run:
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">vi /etc/rsyslog.conf</div></pre></td></tr></table></figure>
-<p>Add the line:</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure>
+Add the line:
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure></p>
 </li>
-<li><p>Restart you syslog using:</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service rsyslog restart</div></pre></td></tr></table></figure>
+<li>
+<p>Restart you syslog using:
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service rsyslog restart</div></pre></td></tr></table></figure></p>
 </li>
-<li><p>Once the syslog is rebooted your logs can be seen at</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure>
+<li>
+<p>Once the syslog is rebooted your logs can be seen at
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">logs2</span><span class="selector-class">.papertrailapp</span><span class="selector-class">.com</span><span class="selector-pseudo">:port_number</span></div></pre></td></tr></table></figure></p>
 </li>
-<li><p>Visit your Events from paper trail account to view all the logs.</p>
+<li>
+<p>Visit your Events from paper trail account to view all the logs.</p>
 </li>
 </ul>
 <p>Now, it logs all the logs that your system is logging.</p>
 <hr>
 <p>For logging laravel logs(which we will be doing here) or similar external log files, you will need to transfer the files to syslog.</p>
 <p>For setting up Laravel logs, you can one of many services to transfer the laravel logs to syslog. We will be using Monolog to serve our purpose.</p>
-<h4 id="Steps-to-setup-laravel-logs-in-papertrail"><a href="#Steps-to-setup-laravel-logs-in-papertrail" class="headerlink" title="Steps to setup laravel logs in papertrail:"></a>Steps to setup laravel logs in papertrail:</h4><ul>
-<li><p>Install Monolog using composer: </p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer <span class="keyword">require</span> monolog/monolog</div></pre></td></tr></table></figure>
+<h4>Steps to setup laravel logs in papertrail:</h4>
+<ul>
+<li>
+<p>Install Monolog using composer:
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer <span class="keyword">require</span> monolog/monolog</div></pre></td></tr></table></figure></p>
 </li>
-<li><p>Replace the code in app/start/global.php : </p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$monolog = Log::getMonolog();</div><div class="line">$monolog-&gt;pushHandler(<span class="keyword">new</span> Monolog\Handler\SyslogHandler(<span class="string">'keyword'</span>));</div></pre></td></tr></table></figure>
+<li>
+<p>Replace the code in app/start/global.php :
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$monolog = Log::getMonolog();</div><div class="line">$monolog-&gt;pushHandler(<span class="keyword">new</span> Monolog\Handler\SyslogHandler(<span class="string">'keyword'</span>));</div></pre></td></tr></table></figure></p>
 </li>
 </ul>
 <p>Keyword can be set to whatever we want. And in the papertrail log system it will show up as a program of such name.</p>
 <p>And we are all set to go.</p>
 <hr>
-<p>Now, suppose you want to setup email notifications too. Who has time to go through all the logs and then view all the boring 404 errors on the papertrail events. Event though it is simple. Pun intended ;) So, papertrail knows how lazy a programmer can get. You set up a search alert. And configure to deliver mails on all the logs at a regular interval of time. Generally, it’s better to put up as a 24 hour notice, hence pointing out the clear distribution time to check the logs just before sleep. </p>
-<h4 id="Now-to-set-up-alerts"><a href="#Now-to-set-up-alerts" class="headerlink" title="Now, to set-up alerts,"></a>Now, to set-up alerts,</h4><ol>
+<p>Now, suppose you want to setup email notifications too. Who has time to go through all the logs and then view all the boring 404 errors on the papertrail events. Event though it is simple. Pun intended ;) So, papertrail knows how lazy a programmer can get. You set up a search alert. And configure to deliver mails on all the logs at a regular interval of time. Generally, it's better to put up as a 24 hour notice, hence pointing out the clear distribution time to check the logs just before sleep.</p>
+<h4>Now, to set-up alerts,</h4>
+<ol>
 <li>Go to your Events page, where all the logs are being shown. Search something. Probably by some keyword or some program name or anything random you wish for.</li>
 <li>Click on Save your search and then choose to configure it.</li>
 <li>You will be redirected to a new page where you can set your alert via various services. Choose any one of them and you are set.</li>
