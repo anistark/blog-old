@@ -50,8 +50,7 @@
     
     <summary type="html">
     
-      &lt;h3&gt;Introduction to Decision Making&lt;/h3&gt;
-&lt;p&gt;In psychology, decision-making is regarded as the cognitive process resulting in the selection o
+      &lt;h3 id=&quot;Introduction-to-Decision-Making&quot;&gt;&lt;a href=&quot;#Introduction-to-Decision-Making&quot; class=&quot;headerlink&quot; title=&quot;Introduction to Decision Makin
     
     </summary>
     
@@ -87,8 +86,7 @@
     
     <summary type="html">
     
-      &lt;h3&gt;Introduction&lt;/h3&gt;
-&lt;p&gt;Material Design was first introduced in &lt;a href=&quot;https://www.google.com/events/io/io14videos/79edef8b-96d4-e311-b29
+      &lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;p&gt;Material Design was first intr
     
     </summary>
     
@@ -122,8 +120,7 @@
     
     <summary type="html">
     
-      &lt;h3&gt;A payment gateway now made even simpler to use&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.braintreepayments.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Brain
+      &lt;h3 id=&quot;A-payment-gateway-now-made-even-simpler-to-use&quot;&gt;&lt;a href=&quot;#A-payment-gateway-now-made-even-simpler-to-use&quot; class=&quot;headerlink&quot; title=&quot;
     
     </summary>
     
@@ -157,8 +154,7 @@
     
     <summary type="html">
     
-      &lt;h3&gt;Managing Logs has never been so easy&lt;/h3&gt;
-&lt;p&gt;PaperTrail lets you track changes to your models&#39; data. It&#39;s good for auditing or versionin
+      &lt;h3 id=&quot;Managing-Logs-has-never-been-so-easy&quot;&gt;&lt;a href=&quot;#Managing-Logs-has-never-been-so-easy&quot; class=&quot;headerlink&quot; title=&quot;Managing Logs has ne
     
     </summary>
     
@@ -220,8 +216,8 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/lcwFbRx.png&quot; title=&quot;[5rem] [auto] [Intro to Python [Intro to Python]]&quot;&gt;
-Python is a widely used general-purp
+      &lt;img src=&quot;http://i.imgur.com/lcwFbRx.png&quot; title=&quot;[5rem] [auto] [Intro to Python [Intro to Python]]&quot;&gt;
+&lt;p&gt;Python is a widely used general-purp
     
     </summary>
     
@@ -249,7 +245,7 @@ Python is a widely used general-purp
     
     <summary type="html">
     
-      &lt;p&gt;Recently, a common question was too much noticeable in a few forums across open source world. &amp;quot;Which Editor is best for my Ubunut / 
+      &lt;p&gt;Recently, a common question was too much noticeable in a few forums across open source world. “Which Editor is best for my Ubunut / Fedor
     
     </summary>
     
