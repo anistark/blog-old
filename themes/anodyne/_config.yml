@@ -32,7 +32,7 @@ comments:
   disqus_shortname: anistark
 
 # Google Analytics Tracking ID
-google_analytics: UA-66400830-1
+google_analytics: UA-66400830-3
 
 # Social Media Platforms
 social_platforms:
@@ -60,5 +60,3 @@ footer_about: "<a class=\"link dim white\" href=\"http://www.anirudha.org/\">Kum
 
 # Home Page Date Format
 home_date_format: MMMM Do YYYY
-
-
