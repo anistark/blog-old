@@ -1,4 +1,4 @@
-# Solitary Pursuits
+# [Solitary Pursuits](https://blog.anirudha.dev)
 
 
 ### Hexo 
